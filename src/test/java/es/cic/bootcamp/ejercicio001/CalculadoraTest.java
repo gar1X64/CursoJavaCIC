@@ -14,7 +14,7 @@ public class CalculadoraTest {
  void testSumar() {
 	 Calculadora calculadora = new Calculadora();
 	 
-	 int resultado = calculadora.sumar(4,5);
+	 int resultado = calculadora.sumar(3,5);
 	 
 	 assertEquals(9, resultado, "la suma es correcta");
 	 }
